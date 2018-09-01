@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyBb4IYRRRGzhGMX9jn3YDhpLuoOUmXyCPY',
+    authDomain: 'pivotal-spark-194009.firebaseapp.com',
+    databaseURL: 'https://pivotal-spark-194009.firebaseio.com',
+    projectId: 'pivotal-spark-194009',
+    storageBucket: 'pivotal-spark-194009.appspot.com',
+    messagingSenderId: '873428431696'
+  }
 };
 
 /*
